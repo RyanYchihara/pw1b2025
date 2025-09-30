@@ -1,6 +1,46 @@
 .card{
     border: 1px solid black;
-    background-color: #ffff00;
+    background-color: #ffffff;
     width: 268px;
     height: 474px;
+}
+.star{
+    display: flex;
+    justify-content: end;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+.description{
+    font-size: 30;
+
+}
+.pa{
+    text-decoration: line-through;
+}
+.price{
+    font-size: 25px;
+    color: rgb(245, 170, 8);
+    display: flex;
+}
+.des{
+    color: #ffffff;
+    justify-content: end;
+    border: 2px solid ;
+    border-radius: 13px;
+    background-color: rgb(245, 170, 8);
+}
+.parcelamento{
+    font-size: 13px;
+}
+.buy{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    background-color: rgb(245, 170, 8);
+    border: none;
+    border-radius: 10px;
+    
 }
